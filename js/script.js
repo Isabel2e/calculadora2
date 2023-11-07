@@ -1,0 +1,42 @@
+function suma(){
+    let number1=parseFloat(document.getElementById('number1').value);
+    let number2=parseFloat(document.getElementById('number2').value);
+    let result= number1+number2;
+    document.getElementById('resul').value= result;
+}
+
+function resta(){
+    let number1=parseFloat(document.getElementById('number1').value);
+    let number2=parseFloat(document.getElementById('number2').value);
+    let result= number1-number2;
+    document.getElementById('resul').value= result;
+}
+
+function multiplicacion(){
+    let number1=parseFloat(document.getElementById('number1').value);
+    let number2=parseFloat(document.getElementById('number2').value);
+    let result= number1*number2;
+    document.getElementById('resul').value= result;
+}
+
+function division(){
+    let number1=parseFloat(document.getElementById('number1').value);
+    let number2=parseFloat(document.getElementById('number2').value);
+    let result= number1/number2;
+    document.getElementById('resul').value= result;
+}
+
+function raiz(){
+    let number1=parseFloat(document.getElementById('number1').value);
+    let result=Math.sqrt(number1);
+    document.getElementById('resul').value= result;
+}
+
+function clearAll() {
+    let display = document.querySelector('input');
+    display.value = '';
+  }
+//-----------------------
+
+
+
